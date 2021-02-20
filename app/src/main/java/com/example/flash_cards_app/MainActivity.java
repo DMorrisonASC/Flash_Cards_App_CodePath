@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 questionTextView.setVisibility(View.INVISIBLE);
-                answerTextView.setVisibility(answerTextView.VISIBLE);
+                answerTextView.setVisibility(View.VISIBLE);
             }
         });
     }
